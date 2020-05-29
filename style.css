@@ -1,0 +1,130 @@
+:root {
+    --white:#eceadf;
+    --sand: #d5cbc5;
+    --green: #a7c0b0;
+    --gray: #9fa8a3;
+    --darkgray: #4f5451;
+}
+  
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+main {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--sand);
+    color: var(--darkgray);
+    text-align: center;   
+}
+
+h1 {
+    font-size: 2.1rem;
+    color: var(--white);
+    text-shadow: 1px 1px 1px var(--darkgray);
+    padding: 2.5rem 0.5rem 0rem 0.5rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: var(--darkgray);
+    font-weight: 400;
+    text-shadow: 1px 1px 1px var(--white);
+    padding: 1rem 0.5rem;
+}
+
+#img-div {
+    background-color: var(--gray);
+    margin: 0 auto; 
+    padding: 1.3rem 20%;
+}
+
+#image {
+    max-width: 100%;
+    display: block; 
+    margin: 0 auto;
+    border-radius: 1%;
+}
+
+#img-caption {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--white);
+    text-shadow: 1px 1px 1px var(--darkgray);
+    max-width: 435px;
+    margin: 0 auto;
+    padding-top: 0.5rem;   
+}
+
+#tribute-info {
+    max-width: 700px;
+    line-height: 1.5;
+    text-align: left; 
+    margin: 0 auto;
+    padding: 2.5rem 1rem 0rem 1rem; 
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: var(--gray);
+    text-align: center;
+}
+
+ul {
+    padding-top: 1rem; 
+    list-style: none;
+}
+
+li {
+    padding-top: 1rem;
+}
+
+.bold {
+    display: inline;
+    font-weight: 600;
+}
+
+.italic {
+    display: inline;
+    font-style: italic;
+}
+
+blockquote {
+    padding: 2.5rem 0;
+    max-width: 850px;
+}
+
+cite {
+    display: block;
+    padding: 1rem 0;
+}
+
+hr {
+    border: 1px solid var(--green);
+}
+
+h4 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--darkgray);
+    padding: 1.5rem 1rem 2.5rem 1rem;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 700px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--darkgray);
+    text-shadow: 1px 1px 1px var(--white);
+}
+
+a:hover {
+    font-weight: 600;
+    color: var(--white);
+    text-shadow: 1px 1px 1px var(--darkgray); 
+}
