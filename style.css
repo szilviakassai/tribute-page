@@ -38,7 +38,7 @@ h2 {
 #img-div {
     background-color: var(--gray);
     margin: 0 auto; 
-    padding: 1.3rem 20%;
+    padding: 2rem 20% 1.3rem 20%;
 }
 
 #image {
